@@ -95,10 +95,7 @@ body {
 }
 
 .engine {
-  height: 50px;
-  width: 50px;
   background: none;
-  padding-top: 10px;
   padding-left: 12px;
   padding-right: 11px;
   border: none;
@@ -106,7 +103,6 @@ body {
   position: relative;
   opacity: 60%;
 }
-
 
 form {
   margin: 0px;
@@ -559,23 +555,4 @@ body {
   50% {
     opacity: 0.6;
   }
-}
-
-
-
-
-@font-face { font-family: helveticaneue; src: url('fonts/helveticaneue.ttf'); } 
-.helveticaneue { font-family: helveticaneue; font-size: 4.2em; }
-
-
-
-.mcdonal{
-  height: 242px;
-  width: 100px;
-  opacity: 0.02;
-  transition: opacity .5s;
-}
-
-.mcdonal:hover{
-  opacity: 0.8;
 }

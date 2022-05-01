@@ -5,12 +5,12 @@ function toggleEngine() {
   var logo = document.getElementById("engineLogo").src;
   localStorage.setItem('preferredEngine', logo);
 
-  if (logo.indexOf("duck.svg") != -1) {
-    document.getElementById("engineLogo").src = "icons/google.svg";
+  if (logo.indexOf("duck.png") != -1) {
+    document.getElementById("engineLogo").src = "icons/google.png";
     gSearch.style.display = "block";
     dSearch.style.display = "none";
   } else {
-    document.getElementById("engineLogo").src = "icons/duck.svg";
+    document.getElementById("engineLogo").src = "icons/duck.png";
     dSearch.style.display = "block";
     gSearch.style.display = "none";
   }
