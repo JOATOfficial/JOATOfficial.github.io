@@ -179,7 +179,7 @@ div.bookmarks.cod a:hover {
   color: #00CF35;
 }
 
-div.bookmarks.doc a:hover {
+div.bookmarks.files a:hover {
   color: #FF8A00;
 }
 
@@ -191,8 +191,12 @@ div.bookmarks.mus a:hover {
   color: #00B8FF;
 }
 
-div.bookmarks.art a:hover {
+div.bookmarks.web a:hover {
   color: #FF62CE;
+}
+
+div.bookmarks.games a:hover {
+  color: #3700ff;
 }
 
 
