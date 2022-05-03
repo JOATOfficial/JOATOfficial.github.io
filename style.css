@@ -199,6 +199,10 @@ div.bookmarks.games a:hover {
   color: #3700ff;
 }
 
+div.bookmarks.pirate a:hover {
+  color: #535353
+}
+
 
 body {
   display: flex;
