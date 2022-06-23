@@ -1,7 +1,7 @@
 window.onload = function()
     {
         var gSearch = document.getElementById("gSearch");
-        var dSearch = document.getElementById("dSearch");
+        var bSearch = document.getElementById("bSearch");
 
         let storedLogo = localStorage.getItem('preferredEngine');
         let currentLogo;
@@ -12,15 +12,15 @@ window.onload = function()
           localStorage.setItem('preferredEngine', currentLogo);
         } else
         {
-          if (storedLogo.indexOf("duck.png") != -1)
+          if (storedLogo.indexOf("brave.png"))
           {
             document.getElementById("engineLogo").src = "icons/google.png";
             gSearch.style.display = "block";
-            dSearch.style.display = "none";
-          } else
+            bSearch.style.display = "none";
+          } else if (storedLogo.indexOf("google.png"))
           {
-            document.getElementById("engineLogo").src = "icons/duck.png";
-            dSearch.style.display = "block";
+            document.getElementById("engineLogo").src = "icons/brave.png";
+            bSearch.style.display = "block";
             gSearch.style.display = "none";
           }
         }
